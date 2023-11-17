@@ -1,0 +1,151 @@
+{
+    "MYSHIFT_URL": "https://myshift.cloud4c.com/?token=",
+    "LOGO":"https://i.imgur.com/QQ8FTjR.png",
+    "SHOP_URL": "https://shop.cloud4c.com",
+    "ENV": {
+    "IS_PROD": false,
+    "IS_UAT": false,
+    "API_URL": "https://itsmnbe.cloud4c.com"
+    },
+    "API": {
+    "BASEURI": "https://apifactory.cloud4c.com",
+    "LIMIT": 10000,
+    "LOGIN": {
+    "ACTION": "",
+    "AUTH_KEY": "",
+    "ACCESS_TOKEN": "",
+    "IS_GET": true
+    },
+    "OPEN_TICKETS": {
+    "ACTION": "ticketsByStaffid",
+    "AUTH_KEY": "*Yal#45KUB+4sirL",
+    "IS_GET": true
+    },
+    "SLA_BREACHES": {
+    "ACTION": "sla_breach_by_staffid",
+    "AUTH_KEY": "i_1t?J[=priv+Y$s",
+    "IS_GET": true
+    },
+    "CLOSED_TICKETS": {
+    "ACTION": "ticketsByStaffid",
+    "AUTH_KEY": "E5xHP~(p+;ltR^A>",
+    "IS_GET": true
+    },
+    "UN_ASSIGNED_TICKETS": {
+    "ACTION": "unAssignedTickets",
+    "AUTH_KEY": "5ZKD!$kdc$#2HTBi",
+    "IS_GET": true,
+    "LIMIT": 10
+    },
+    "TICKET_TYPES": {
+    "ACTION": "type_of_tickets",
+    "AUTH_KEY": "&OBYGq^p5zj9$|y5",
+    "IS_GET": true
+    },
+    "PEND_CUSTOMER": {
+    "ACTION": "getCustomerList",
+    "AUTH_KEY": "V)}5_]X**)tX%K9n",
+    "IS_GET": true
+    },
+    "CREATE_TICKET": {
+    "ACTION": "freshservice_to_myshift_ticket_creation",
+    "AUTH_KEY": "*Yil-f~#%^h[$#46",
+    "IS_GET": false
+    },
+    "OPEN_TICKETS_BY_DATE": {
+    "ACTION": "get_all_open_tickets",
+    "AUTH_KEY": "o35$ZBjHC2G_?3aQ",
+    "IS_GET": true,
+    "LIMIT": 10
+    },
+    "MY_TICKETS": {
+    "ACTION": "tickets_by_ownerid",
+    "AUTH_KEY": ">93$}cgYMyW8M~,=",
+    "IS_GET": true
+    },
+    "DEPTS": {
+    "ACTION": "get_departmentwise_opentickets_stat",
+    "AUTH_KEY": "Qbie$J9O7F;Q+;_G",
+    "IS_GET": true
+    },
+    "PRIORITY_LIST": {
+    "ACTION": "get_priorities",
+    "AUTH_KEY": "wlx#3NZNh#FDEs(G",
+    "IS_GET": true
+    },
+    "AUDITLOGS_BY_ID": {
+    "ACTION": "auditlogs_by_id",
+    "AUTH_KEY": "c+<12C:e9Qc5#THV",
+    "IS_GET": true
+    },
+    "RESTRICT_FORM": {
+    "ACTION": "restrictform",
+    "AUTH_KEY": "",
+    "IS_GET": true
+    },
+    "ERROR_CODES": {
+    "0": "The requested service is not available",
+    "400": "Client sent an Invalid request, such as lacking required request body or parameter",
+    "401": "Client failed to authenticate with the server",
+    "403": "Client authenticated but does not have permission to access the requested resource",
+    "404": "The requested resource does not exist",
+    "412": "one or more conditions in the request header fields evaluated to false",
+    "500": "A generic error occured on server",
+    "503": "The requested service is not available",
+    "default": "Network error or unable to access the network"
+    }
+    },
+    "TICKET_SHORT_FORM": {
+    "Incident": "INC",
+    "Service Request": "SR",
+    "Alert": "AL",
+    "Others": "OTH",
+    "Reboot Request": "RR",
+    "New Implementation": "NI",
+    "Problem": "PRB",
+    "Change Request": "CR",
+    "Task": "TSK",
+    "Security Request": "SR",
+    "SOC-Incident": "SINC",
+    "SOC-Alert": "SAL",
+    "SOPTSK": "STSK",
+    "CMDBTSK": "CTSK",
+    "SAPEWA": "SEWA",
+    "SAPCWF": "SCWF",
+    "SAPRCA": "SRCA",
+    "SAPCSM": "SCSM",
+    "De-escalation": "DE",
+    "SIP": "SIP",
+    "Solman-Alert": "SLM",
+    "RPA": "RPA",
+    "Missed Call": "MC",
+    "SOC-Task": "STSK",
+    "Email_Ticketing": "ET",
+    "SAPHCR": "SHCR",
+    "Service Request - OTH": "SR",
+    "EMS": "EMS",
+    "EMS - OTH": "EMS",
+    "Project": "PROJ",
+    "ELK": "ELK",
+    "Test123": "T123",
+    "TestKalpana": "TK",
+    "AddOn Request": "AOR",
+    "CHG": "CHG",
+    "DTSHCR": "DHCR",
+    "CCM": "CCM",
+    "G2G": "G2G",
+    "MCC": "MCC",
+    "SA": "SA",
+    "ADD": "ADD",
+    "SDD": "SDD",
+    "VAS": "VAS",
+    "CDCSIP": "CDC",
+    "TI": "TI",
+    "GI": "GI",
+    "CYD": "CYD",
+    "SOCACC": "SACC",
+    "SSRA": "SSRA",
+    "RF": "RF",
+    "PartnerSupport": "PS"
+    }
+    }

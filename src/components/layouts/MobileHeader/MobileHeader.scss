@@ -1,0 +1,29 @@
+header {
+  .logoWrapper{
+    // width: 100px;
+    height: 70px;
+  }
+  
+ img {
+  width: 100%;
+  height:100%;
+  padding: 10px;
+  // margin: 10px;
+}
+.headerWrapper{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: white;
+  border-bottom: 1px solid #c5c1c1;
+}
+.drawerWrapper{
+  // padding: 10px;
+  margin: 10px;
+  // margin: 25px;
+}
+}
