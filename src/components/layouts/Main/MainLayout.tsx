@@ -27,8 +27,8 @@ console.log("config",config)
   return (
     <div >
       {/* <Header /> */}
-     {/* {showHeader?.showHeader && <MobileHeader/> } */}
-     {<MobileHeader/> }
+     {showHeader?.showHeader && <MobileHeader/> }
+     {/* {<MobileHeader/> } */}
       <div className="main-content">
         <div className="routing">
           <div className="layoutRouting" >
